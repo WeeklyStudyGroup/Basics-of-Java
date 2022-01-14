@@ -52,7 +52,7 @@ JVM provides an E*xecution Environment* for the program
 
 **What Execution Environment starts**
 
-- I**nterpreter**
+- **Interpreter**
     
     for the bytecode form of the program that steps through one bytecode instruction at a time.
     
@@ -115,7 +115,7 @@ New class files can be onboarded via the classloading mechanism
 
 This makes the **new type** (이게 뭐지) available to the **interpreter** for execution
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8a0bedd2-7104-4206-9ebd-e644c4f836c1/Untitled.png)
+![How Java code is compiled and loaded](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8a0bedd2-7104-4206-9ebd-e644c4f836c1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220114%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220114T140035Z&X-Amz-Expires=86400&X-Amz-Signature=e3384dd631e7123f208b81c37745c1fc5f8447465dff329e20901c933cb40574&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject)
 
 ### FAQ
 
@@ -180,3 +180,21 @@ JRuby 같은 자체 인터프리터, 런타임 있는 언어도 JVM에서 작동
 자바는 읽기 쉽게 설계되었다. 장황함은 작성에는 불편할 수 있다. 하지만 읽기 때 큰 도움을 준다.
 
 **느린 변화**
+
+자바는 큰 사용자 기반을 갖고 있다. 어떤 코드베이스에서도 문제를 일으키지 않음을 확인한 후 새로운 기능을 추가할 수 있다. 자바에 새로운 기능이 추가되면 다시 빼기 때문이다. 백워드 컴패터빌리티를 보장히기 위함이다.
+
+**성능 문제**
+
+자바 플랫폼은 느린 것으로 비판 받는다. 이것은 완전한 억까다. 핫스팟 가상 머신과 JIT 컴파일러가 등장한 이후로 15년 넘게 가상 머신과 그 성능에 대한 지속적인 혁신과 개선이 있었다. 자바는 개발자가 사용할 수 있는 가장 빠른 일반적인 사용 환경 중 하나다.
+
+**불안정성**
+
+2013년에 자바 플랫폼에서 보안 취약점이 발견되었다. 그 취약점의 대부분은 자바 시스템의 데스크톱 및 GUI 구성 요소와 관련되어 있었다. 자바로 작성된 웹 사이트와 기타 서버측 코드에는 영향을 미치지 않았다.
+
+어떤 프로그래밍 플랫폼이든 보안 문제가 때때로 발생한다. 다른 많은 언어들의 보안 취약점들은 비교적 덜 알려지지 않았을 뿐이다.
+
+**너무 기업적임**
+
+자바는 기업 개발자들에게 광범위하게 사용돼 너무 기업적이라고 인식된다. 커뮤니티 지향적이지 않다고 인식되는 경우가 많다. 하지만 깃헙 등의 사이트에서 자바는 오픈소스 프로젝트로 유명하게 사용된다.
+
+![본문 링크](https://www.notion.so/chaejunlee/Chap-1-Introduction-to-the-Java-Environment-48df4e3683324705a49118bae1af79ef)
