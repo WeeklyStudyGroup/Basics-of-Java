@@ -27,3 +27,15 @@
 `package` 와 `import` 는 네임스페이스를 지정해주는데, 네임스페이스는 컴필레이션 유닛이 이름(name)을 정의하는 범위이자 컴필레이션 유닛이 이름들을 import 해올 수 있는 곳이다.
 
 → 이 두 가지 선언을 해줘야 컴필레이션 유닛이 값을 가져오고 생성할 수 있다고 할 수 있는 것 같다.
+
+선택적인 `package` 와 `import` 뒤에는 0개 이상의 **참조형 정의**(reference type definitions)를 추가할 수 있다. 참조형 정의는 대부분 `class` 혹은 `interface` 정의이다.
+
+참조형을 정의할 때, `fields` , `methods`, `constructors` 등의 `members` 도 함께 선언된다. Method는 `statement` 들로 구성된 자바 코드 블록이다.
+
+## 어휘 구조 (Lexical Structure)
+
+자바의 어휘 구조에는 **유니코드 문자**, **토큰**, **코멘트**, **식별자**(identifier), **예약어**(reserved words), **리터럴** 등이 있다.
+
+### 유니코드 문자 세트(Unicode Character Set)
+
+자바 프로그램은 유니코드로 쓰여진다. 자바 프로그램 안의 어떤 곳이라도 입력하고자하는 문자가 유니코드라면 입력할 수 있다. ASCII, ISO와 달리 Unicode는 지구 상 대부분의 언어를 표현할 수 있다.
