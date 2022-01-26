@@ -86,7 +86,7 @@ int i = 0; // Initialize the loop variable
 
 ### 예약어(Reserved Words)
 
-![스크린샷 2022-01-26 오전 10.07.50.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/58cc7795-97ab-44df-8fb8-0abd62fd0a5c/스크린샷_2022-01-26_오전_10.07.50.png)
+![자바 예약어](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/58cc7795-97ab-44df-8fb8-0abd62fd0a5c/스크린샷_2022-01-26_오전_10.07.50.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220126%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220126T150348Z&X-Amz-Expires=86400&X-Amz-Signature=da0472ebb9e75aedcf6e71a84ac6dae027c1165b316d67dd0851ea8a9ee1a06c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA%25202022-01-26%2520%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB%252010.07.50.png%22&x-id=GetObject)
 
 위 문자들은 자바 언어 구문의 부분으로서 변수, 클래스 등으로 사용할 수 없다. 시퀀스 `var` 는 키워드가 아니지만 지역 변수의 유형이 유추되어야 함을 나타낸다. 단일 밑줄, `_` 으로 된 문자 시퀀스도 허용되지 않는다. 10개의 제한 키워드도 있다.
 
