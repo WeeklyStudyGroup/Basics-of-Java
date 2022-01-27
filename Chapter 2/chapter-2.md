@@ -282,3 +282,7 @@ if (o != null) {
     *This form is generally discouraged in favor of the `\uXXXX` form.* (뭔 뜻인지 잘 모르겠음. `\uxxxx` 형식을 위해 이 형식은 권장되지 않는다. → `\xxx` 를 쓰지 말자는 말인가?)
     
 - `\uxxxx` -  16진수 이스케이프 시퀀스인 `xxxx` 인코딩의 유니코드 문자. 문자와 스트링 리터럴 뿐만 아니라 자바 프로그램의 모든 부분에서 사용 가능.
+
+`char` 의 데이터 타입은 16 비트 정수형 타입으로 다양한 정수 타입으로 변환할 수 있다.
+
+### String Literals
